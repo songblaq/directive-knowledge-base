@@ -300,6 +300,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">${renderGroupCards(directive)}</div>
       </div>
       <div>
+        <h3 class="text-sm font-semibold text-gray-300 mb-3">그룹·차원 레이더</h3>
+        <div id="dkb-detail-radar" class="rounded-xl border border-gray-800 bg-gray-950/40 p-3"></div>
+      </div>
+      <div>
         <h3 class="text-sm font-semibold text-gray-300 mb-3">② 주요 이슈 차원 (낮은 순)</h3>
         ${renderTopIssues(directive, 5)}
       </div>
@@ -334,6 +338,16 @@
         btn.textContent = '전문가 뷰 닫기';
       }
     });
+  }
+
+  function wireDetailRadar(root, directive) {
+    const el = root.querySelector('#dkb-detail-radar');
+    if (!el) return;
+    if (typeof window.DKBRadar !== 'undefined' && window.DKBRadar.mount) {
+      window.DKBRadar.mount(el, directive);
+    } else {
+      el.innerHTML = '<p class="text-xs text-gray-500">레이더 차트를 쓰려면 Chart.js와 radar.js를 로드하세요.</p>';
+    }
   }
 
   let catalogCache = null;
@@ -438,6 +452,7 @@
           if (!d) return;
           panelInner.innerHTML = renderDetailInner(d);
           wireExpertToggle(panelInner);
+          wireDetailRadar(panelInner, d);
           openPanel();
         });
       });
@@ -466,6 +481,7 @@
         }
         root.innerHTML = renderDetailInner(d);
         wireExpertToggle(root);
+        wireDetailRadar(root, d);
       })
       .catch(() => {
         root.innerHTML = '<p class="text-red-400">로드 실패</p>';
@@ -473,12 +489,14 @@
   }
 
   let compareChart = null;
+  let compareRadarChart = null;
 
   function initCompare() {
     const selA = document.getElementById('dkb-compare-a');
     const selB = document.getElementById('dkb-compare-b');
     const out = document.getElementById('dkb-compare-output');
     const canvas = document.getElementById('dkb-compare-chart');
+    const radarCanvas = document.getElementById('dkb-compare-radar');
 
     function optionHtml(d) {
       return `<option value="${escapeHtml(d.directive_id)}">${escapeHtml(d.preferred_name || d.directive_id)}</option>`;
@@ -588,6 +606,13 @@
           },
         },
       });
+
+      if (typeof window.DKBRadar !== 'undefined' && window.DKBRadar.mountCompare && radarCanvas) {
+        compareRadarChart = window.DKBRadar.mountCompare(radarCanvas, a, b, compareRadarChart);
+      } else if (compareRadarChart) {
+        compareRadarChart.destroy();
+        compareRadarChart = null;
+      }
     }
 
     function update() {
@@ -600,6 +625,10 @@
         if (compareChart) {
           compareChart.destroy();
           compareChart = null;
+        }
+        if (compareRadarChart) {
+          compareRadarChart.destroy();
+          compareRadarChart = null;
         }
         return;
       }
