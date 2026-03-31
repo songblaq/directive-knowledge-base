@@ -258,6 +258,7 @@
     }
 
     function renderDimDetail(specKey) {
+      destroyHist();
       const spec = DIMENSION_SPEC.find((x) => x.key === specKey);
       if (!spec) return;
 
@@ -308,7 +309,6 @@
       </div>`;
 
       const newCanvas = document.getElementById('dkb-dim-hist');
-      destroyHist();
       if (typeof Chart !== 'undefined' && newCanvas && values.length) {
         histChart = new Chart(newCanvas.getContext('2d'), {
           type: 'bar',
