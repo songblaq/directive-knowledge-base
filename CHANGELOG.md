@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.2.0 (2026-03-31)
+
+### Added
+- Browse MVP (search, detail, compare pages)
+- Radar charts + dimension explorer
+- Pack comparison with governance view
+- Dark theme responsive web UI
+
 ## v0.1.0 (2026-03-30)
 
 ### Added
