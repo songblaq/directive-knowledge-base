@@ -652,10 +652,289 @@
       });
   }
 
+  let packsRadarChart = null;
+
+  function packAvgScore(pack, g) {
+    const m = pack && pack.avg_scores_by_group;
+    if (!m || typeof m[g] !== 'number') return null;
+    return m[g];
+  }
+
+  function policyComplianceBadge(pc) {
+    const map = {
+      compliant: {
+        text: '정책 준수',
+        cls: 'bg-emerald-500/20 text-emerald-200 border-emerald-500/40',
+      },
+      review: {
+        text: '검토 권장',
+        cls: 'bg-amber-500/20 text-amber-200 border-amber-500/40',
+      },
+      caution: {
+        text: '주의',
+        cls: 'bg-red-500/20 text-red-200 border-red-500/40',
+      },
+      unknown: {
+        text: '알 수 없음',
+        cls: 'bg-gray-500/20 text-gray-300 border-gray-500/40',
+      },
+    };
+    return map[pc] || map.unknown;
+  }
+
+  function trustTone(key) {
+    if (key === 'verified') return 'bg-emerald-500/80';
+    if (key === 'reviewing') return 'bg-amber-500/80';
+    if (key === 'caution') return 'bg-red-500/80';
+    return 'bg-gray-600';
+  }
+
+  function legalTone(key) {
+    if (key === 'clear') return 'bg-sky-500/80';
+    if (key === 'custom') return 'bg-violet-500/80';
+    return 'bg-gray-600';
+  }
+
+  function renderCountBar(dist, toneFn) {
+    const entries = Object.entries(dist || {});
+    const total = entries.reduce((s, [, n]) => s + (Number(n) || 0), 0) || 1;
+    if (!entries.length) {
+      return '<div class="h-2 rounded-full bg-gray-800" title="데이터 없음"></div>';
+    }
+    return `<div class="flex h-2 w-full rounded-full overflow-hidden bg-gray-800">${entries
+      .map(([k, n]) => {
+        const w = ((Number(n) || 0) / total) * 100;
+        return `<div class="${toneFn(k)} h-full shrink-0" style="width:${w}%" title="${escapeHtml(k)}: ${n}"></div>`;
+      })
+      .join('')}</div>`;
+  }
+
+  function renderPackMiniScores(pack) {
+    return GROUP_ORDER.map((g) => {
+      const av = packAvgScore(pack, g);
+      const pct = av != null ? Math.round(av * 100) : null;
+      const st = groupStatus(av);
+      const bg =
+        st.tier === 'na' ? '#4b5563' : st.tier === 'good' ? '#10b981' : st.tier === 'warn' ? '#f59e0b' : '#ef4444';
+      return `<div class="flex items-center gap-1.5 min-w-0" title="${GROUP_LABELS[g]}: ${pct != null ? pct + '%' : 'N/A'}">
+        <span class="text-[9px] uppercase text-gray-500 w-4 shrink-0">${g[0].toUpperCase()}</span>
+        <div class="h-1.5 flex-1 rounded-full bg-gray-800 overflow-hidden">
+          <div class="h-full rounded-full" style="width:${pct != null ? pct : 0}%;background:${bg};opacity:${av != null ? 0.9 : 0.25}"></div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  async function loadPackSummary() {
+    const res = await fetch('data/pack-summary.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('pack summary load failed');
+    return res.json();
+  }
+
+  function initPacks() {
+    const grid = document.getElementById('dkb-packs-grid');
+    const selA = document.getElementById('dkb-pack-a');
+    const selB = document.getElementById('dkb-pack-b');
+    const out = document.getElementById('dkb-packs-compare');
+    const radarCanvas = document.getElementById('dkb-packs-radar');
+
+    function packOption(p) {
+      return `<option value="${escapeHtml(p.key)}">${escapeHtml(p.label)}</option>`;
+    }
+
+    function renderCompare(pa, pb) {
+      const idsA = new Set((pa.directives || []).map((d) => d.directive_id).filter(Boolean));
+      const idsB = new Set((pb.directives || []).map((d) => d.directive_id).filter(Boolean));
+      const common = [...idsA].filter((id) => idsB.has(id));
+      const onlyA = [...idsA].filter((id) => !idsB.has(id));
+      const onlyB = [...idsB].filter((id) => !idsA.has(id));
+
+      const nameById = (pack) => {
+        const m = {};
+        (pack.directives || []).forEach((d) => {
+          if (d.directive_id) m[d.directive_id] = d.name || d.directive_id;
+        });
+        return m;
+      };
+      const na = nameById(pa);
+      const nb = nameById(pb);
+
+      const listIds = (ids, nmap) =>
+        ids.length
+          ? `<ul class="text-sm text-gray-300 space-y-1 list-disc list-inside">${ids
+              .map((id) => `<li>${escapeHtml(nmap[id] || id)}</li>`)
+              .join('')}</ul>`
+          : '<p class="text-sm text-gray-500">없음</p>';
+
+      const badgeA = policyComplianceBadge(pa.policy_compliance);
+      const badgeB = policyComplianceBadge(pb.policy_compliance);
+
+      out.innerHTML = `<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div class="rounded-xl border border-blue-500/20 bg-gray-800/40 p-5">
+          <h3 class="text-sm font-semibold text-blue-300 mb-1">팩 A</h3>
+          <p class="text-white font-medium">${escapeHtml(pa.label)}</p>
+          <p class="text-xs text-gray-500 mt-1">${pa.directive_count}개 디렉티브</p>
+          <span class="inline-block mt-2 text-xs px-2 py-0.5 rounded border ${badgeA.cls}">${badgeA.text}</span>
+          <h4 class="text-xs text-gray-500 uppercase mt-4 mb-2">디렉티브</h4>
+          ${listIds([...idsA], na)}
+        </div>
+        <div class="rounded-xl border border-violet-500/20 bg-gray-800/40 p-5">
+          <h3 class="text-sm font-semibold text-violet-300 mb-1">팩 B</h3>
+          <p class="text-white font-medium">${escapeHtml(pb.label)}</p>
+          <p class="text-xs text-gray-500 mt-1">${pb.directive_count}개 디렉티브</p>
+          <span class="inline-block mt-2 text-xs px-2 py-0.5 rounded border ${badgeB.cls}">${badgeB.text}</span>
+          <h4 class="text-xs text-gray-500 uppercase mt-4 mb-2">디렉티브</h4>
+          ${listIds([...idsB], nb)}
+        </div>
+      </div>
+      <div class="rounded-xl border border-gray-800 bg-gray-900/40 p-5 mb-8">
+        <h3 class="text-sm font-semibold text-gray-300 mb-4">공통 / 차이 (디렉티브 ID 기준)</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <p class="text-xs text-emerald-400/90 font-medium mb-2">공통 (${common.length})</p>
+            ${listIds(common, na)}
+          </div>
+          <div>
+            <p class="text-xs text-blue-400/90 font-medium mb-2">A만 (${onlyA.length})</p>
+            ${listIds(onlyA, na)}
+          </div>
+          <div>
+            <p class="text-xs text-violet-400/90 font-medium mb-2">B만 (${onlyB.length})</p>
+            ${listIds(onlyB, nb)}
+          </div>
+        </div>
+      </div>`;
+
+      if (typeof Chart === 'undefined' || !radarCanvas) return;
+      const labels = GROUP_ORDER.map((g) => GROUP_LABELS[g]);
+      const dataA = GROUP_ORDER.map((g) => {
+        const v = packAvgScore(pa, g);
+        return v != null ? Math.round(v * 100) : 0;
+      });
+      const dataB = GROUP_ORDER.map((g) => {
+        const v = packAvgScore(pb, g);
+        return v != null ? Math.round(v * 100) : 0;
+      });
+
+      if (packsRadarChart) packsRadarChart.destroy();
+      packsRadarChart = new Chart(radarCanvas.getContext('2d'), {
+        type: 'radar',
+        data: {
+          labels,
+          datasets: [
+            {
+              label: pa.label,
+              data: dataA,
+              borderColor: 'rgba(108, 155, 255, 1)',
+              backgroundColor: 'rgba(108, 155, 255, 0.2)',
+              pointBackgroundColor: 'rgba(108, 155, 255, 1)',
+              borderWidth: 2,
+            },
+            {
+              label: pb.label,
+              data: dataB,
+              borderColor: 'rgba(167, 139, 250, 1)',
+              backgroundColor: 'rgba(167, 139, 250, 0.15)',
+              pointBackgroundColor: 'rgba(167, 139, 250, 1)',
+              borderWidth: 2,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: { labels: { color: '#d1d5db' } },
+            title: {
+              display: true,
+              text: '그룹 평균 점수 겹침 (%)',
+              color: '#e5e7eb',
+            },
+          },
+          scales: {
+            r: {
+              min: 0,
+              max: 100,
+              ticks: { color: '#9ca3af', backdropColor: 'transparent' },
+              grid: { color: '#374151' },
+              pointLabels: { color: '#d1d5db', font: { size: 11 } },
+            },
+          },
+        },
+      });
+    }
+
+    function update() {
+      const keyA = selA.value;
+      const keyB = selB.value;
+      const state = window.__dkbPackState;
+      if (!state || !state.packs) return;
+      const pa = state.packs.find((p) => p.key === keyA);
+      const pb = state.packs.find((p) => p.key === keyB);
+      if (!pa || !pb || keyA === keyB) {
+        out.innerHTML = '<p class="text-gray-500">서로 다른 팩 두 개를 선택하세요.</p>';
+        if (packsRadarChart) {
+          packsRadarChart.destroy();
+          packsRadarChart = null;
+        }
+        return;
+      }
+      renderCompare(pa, pb);
+    }
+
+    loadPackSummary()
+      .then((data) => {
+        const packs = Array.isArray(data.packs) ? data.packs : [];
+        window.__dkbPackState = { packs };
+        const opts = packs.map(packOption).join('');
+        selA.innerHTML = opts;
+        selB.innerHTML = opts;
+        if (packs.length > 1) selB.selectedIndex = 1;
+
+        grid.innerHTML = packs
+          .map((p) => {
+            const pol = policyComplianceBadge(p.policy_compliance);
+            return `<article class="rounded-xl border border-gray-800 bg-gray-800/30 p-4 flex flex-col gap-3">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <h3 class="font-semibold text-gray-100">${escapeHtml(p.label)}</h3>
+                <p class="text-xs text-gray-500 font-mono mt-0.5">${escapeHtml(p.key)}</p>
+              </div>
+              <span class="text-xs px-2 py-0.5 rounded border shrink-0 ${pol.cls}">${pol.text}</span>
+            </div>
+            <p class="text-sm text-gray-400 leading-relaxed">${escapeHtml(p.description || '')}</p>
+            <p class="text-xs text-gray-500">${p.directive_count}개 디렉티브</p>
+            <div>
+              <p class="text-[10px] text-gray-500 uppercase mb-1">신뢰 상태</p>
+              ${renderCountBar(p.trust_distribution, trustTone)}
+            </div>
+            <div>
+              <p class="text-[10px] text-gray-500 uppercase mb-1">법무 상태</p>
+              ${renderCountBar(p.legal_distribution, legalTone)}
+            </div>
+            <div>
+              <p class="text-[10px] text-gray-500 uppercase mb-1">그룹 평균 (샘플)</p>
+              <div class="space-y-1">${renderPackMiniScores(p)}</div>
+            </div>
+          </article>`;
+          })
+          .join('');
+
+        selA.addEventListener('change', update);
+        selB.addEventListener('change', update);
+        update();
+      })
+      .catch(() => {
+        grid.innerHTML = '<p class="text-red-400">pack-summary.json을 불러오지 못했습니다.</p>';
+        out.innerHTML = '';
+      });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     const page = document.body && document.body.dataset.page;
     if (page === 'browse') initBrowse();
     else if (page === 'detail') initDetailPage();
     else if (page === 'compare') initCompare();
+    else if (page === 'packs') initPacks();
   });
 })();

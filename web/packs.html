@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DKB — 팩 비교</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen antialiased" data-page="packs">
+  <header class="border-b border-gray-800 bg-gray-950/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="text-lg font-bold bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">DKB</a>
+        <nav class="flex flex-wrap gap-3 text-sm text-gray-400">
+          <a href="browse.html" class="hover:text-white">탐색</a>
+          <a href="compare.html" class="hover:text-white">비교</a>
+          <span class="text-white">팩</span>
+          <a href="index.html" class="hover:text-white">소개</a>
+        </nav>
+      </div>
+      <p class="text-xs text-gray-500 max-w-xl">agent-prompt-dkb 팩 요약 — 거버넌스 분포와 그룹 평균 점수, 두 팩 레이더 겹침 비교.</p>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <section class="mb-10">
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">팩 카드</h2>
+      <div id="dkb-packs-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">비교 선택</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label for="dkb-pack-a" class="block text-xs text-gray-500 mb-2">팩 A</label>
+          <select id="dkb-pack-a" class="w-full rounded-xl border border-gray-700 bg-gray-800 px-3 py-2.5 text-sm text-gray-100 focus:ring-2 focus:ring-blue-500/50"></select>
+        </div>
+        <div>
+          <label for="dkb-pack-b" class="block text-xs text-gray-500 mb-2">팩 B</label>
+          <select id="dkb-pack-b" class="w-full rounded-xl border border-gray-700 bg-gray-800 px-3 py-2.5 text-sm text-gray-100 focus:ring-2 focus:ring-violet-500/50"></select>
+        </div>
+      </div>
+    </section>
+
+    <div id="dkb-packs-compare" class="mb-8 min-h-[4rem]"></div>
+
+    <div class="rounded-xl border border-gray-800 bg-gray-800/20 p-4">
+      <p class="text-xs text-gray-500 mb-3">그룹 평균 레이더 — 파랑: 팩 A, 보라: 팩 B (데이터 없는 그룹은 0%로 표시)</p>
+      <div class="max-w-xl mx-auto">
+        <canvas id="dkb-packs-radar" height="340"></canvas>
+      </div>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
