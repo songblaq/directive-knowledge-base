@@ -1,3 +1,5 @@
+![CI](https://github.com/songblaq/directive-knowledge-base/actions/workflows/ci.yml/badge.svg)
+
 # Directive Knowledge Base (DKB)
 
 AI 에이전트/스킬/플러그인/워크플로/커맨드 역할 아티팩트를 체계적으로 관리하기 위한 **지식 체계 명세**.
