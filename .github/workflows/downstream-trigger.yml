@@ -1,0 +1,25 @@
+# Reference template for downstream repos (ai-store-dkb, agent-prompt-dkb).
+# Do not rely on this file as a runnable workflow in those repos — merge the
+# `repository_dispatch` block into `.github/workflows/ci.yml` instead.
+#
+# Example `on:` merge for ci.yml:
+#
+#   on:
+#     push:
+#       branches: [master]
+#     pull_request:
+#       branches: [master]
+#     repository_dispatch:
+#       types: [dkb-upstream-trigger]
+#
+# Upstream senders need CROSS_REPO_DISPATCH_TOKEN (PAT with repo access to targets).
+
+name: Downstream trigger reference
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Template only — merge repository_dispatch into ci.yml in downstream repos."
