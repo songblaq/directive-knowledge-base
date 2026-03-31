@@ -1,0 +1,4634 @@
+{
+  "version": "0.1.0",
+  "build_id": "b37cdddf0e9b577b6d4c9640f9626031a4c9855a",
+  "timestamp": "2026-03-31T06:02:12.562234+00:00",
+  "instance": "ai-store",
+  "directive_count": 40,
+  "directives": [
+    {
+      "directive_id": "agent-skills-community/VoltAgent/awesome-agent-skills",
+      "preferred_name": "VoltAgent/awesome-agent-skills",
+      "category": "agent-skills-community",
+      "normalized_summary": "Claude Code Skills and 1000+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/VoltAgent/awesome-agent-skills",
+      "source_label": "Awesome Agent Skills",
+      "overall_score": 0.5432,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.68,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9023,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.6799999999999999
+        },
+        "adoption": {
+          "popularity": 0.9023395943710053
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "VoltAgent/awesome-agent-skills",
+          "name": "awesome-agent-skills",
+          "description": "Claude Code Skills and 1000+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
+          "stargazers_count": 13474,
+          "forks_count": 1365,
+          "language": null,
+          "license_spdx": "MIT",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "antigravity-skills",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "claude-code",
+            "claude-code-skills",
+            "claude-skills",
+            "codex-skills",
+            "cursor-skills",
+            "gemini-skills",
+            "opencode-skills",
+            "skills"
+          ],
+          "updated_at": "2026-03-31T05:57:36Z",
+          "owner_login": "VoltAgent",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/VoltAgent/awesome-agent-skills"
+        },
+        "readme_excerpt": "<a href=\"https://github.com/VoltAgent/voltagent\">\n     <img width=\"1500\" height=\"801\" alt=\"claude-skills\" src=\"https://github.com/user-attachments/assets/3a9d4cb3-04bd-4fb1-9146-fd3b53d26961\" />\n</a>\n\n\n<br/>\n<br/>\n\n<div align=\"center\">\n    <strong>A curated collection of official Agent Skills from leading development teams and the community.\n    </strong>\n    <br />\n    <br />\n\n</div>\n\n<div align=\"center\">\n\n[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n![Skills Count](https://im",
+        "fetched_at": "2026-03-31T06:00:58.734280+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-community/msitarzewski/agency-agents",
+      "preferred_name": "msitarzewski/agency-agents",
+      "category": "agent-skills-community",
+      "normalized_summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/msitarzewski/agency-agents",
+      "source_label": "Agency Agents",
+      "overall_score": 0.495,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 1.0,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 1.0
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "msitarzewski/agency-agents",
+          "name": "agency-agents",
+          "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "stargazers_count": 66716,
+          "forks_count": 10082,
+          "language": "Shell",
+          "license_spdx": "MIT",
+          "topics": [],
+          "updated_at": "2026-03-31T06:00:39Z",
+          "owner_login": "msitarzewski",
+          "owner_type": "User",
+          "html_url": "https://github.com/msitarzewski/agency-agents"
+        },
+        "readme_excerpt": "# \ud83c\udfad The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yell",
+        "fetched_at": "2026-03-31T06:01:00.692806+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-official/anthropics/skills",
+      "preferred_name": "anthropics/skills",
+      "category": "agent-skills-official",
+      "normalized_summary": "Public repository for Agent Skills",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/anthropics/skills",
+      "source_label": "Anthropic Official Skills",
+      "overall_score": 0.421,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 1.0,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 1.0,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 1.0
+        },
+        "adoption": {
+          "popularity": 1.0
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "anthropics/skills",
+          "name": "skills",
+          "description": "Public repository for Agent Skills",
+          "stargazers_count": 106893,
+          "forks_count": 11830,
+          "language": "Python",
+          "license_spdx": null,
+          "topics": [
+            "agent-skills"
+          ],
+          "updated_at": "2026-03-31T06:00:15Z",
+          "owner_login": "anthropics",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/anthropics/skills"
+        },
+        "readme_excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organi",
+        "fetched_at": "2026-03-31T06:01:02.701963+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-official/block/agent-skills",
+      "preferred_name": "block/agent-skills",
+      "category": "agent-skills-official",
+      "normalized_summary": "A marketplace for agent skills",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/block/agent-skills",
+      "source_label": "Block Agent Skills",
+      "overall_score": 0.3829,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.55,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.45,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.2291,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.55,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.45
+        },
+        "adoption": {
+          "popularity": 0.22912470253161923
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "block/agent-skills",
+          "name": "agent-skills",
+          "description": "A marketplace for agent skills",
+          "stargazers_count": 8,
+          "forks_count": 11,
+          "language": "JavaScript",
+          "license_spdx": "Apache-2.0",
+          "topics": [],
+          "updated_at": "2026-03-18T13:14:49Z",
+          "owner_login": "block",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/block/agent-skills"
+        },
+        "readme_excerpt": "# Agent Skills\n\nA collection of reusable **Agent Skills** maintained by Block to help AI agents perform real-world tasks more effectively.\n\nThese skills are designed to be:\n- \u2705 Portable across agents (Goose, Claude Desktop, and others that support agent skills)\n- \u2705 Easy to install\n- \u2705 Easy to understand before installing\n- \u2705 Community-extensible\n\n---\n\n## What are Agent Skills?\n\nAgent Skills are reusable sets of instructions and supporting resources that teach an AI agent how to perform a specifi",
+        "fetched_at": "2026-03-31T06:01:04.622955+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-official/google-gemini/gemini-skills",
+      "preferred_name": "google-gemini/gemini-skills",
+      "category": "agent-skills-official",
+      "normalized_summary": "Skills for the Gemini API, SDK and model/agent interactions",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/google-gemini/gemini-skills",
+      "source_label": "Google Gemini Skills",
+      "overall_score": 0.4927,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.93,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7473,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.6,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.9299999999999999
+        },
+        "adoption": {
+          "popularity": 0.74734904975664
+        },
+        "clarity": {
+          "description_clarity": 0.6000000000000001
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "google-gemini/gemini-skills",
+          "name": "gemini-skills",
+          "description": "Skills for the Gemini API, SDK and model/agent interactions",
+          "stargazers_count": 3002,
+          "forks_count": 265,
+          "language": null,
+          "license_spdx": "Apache-2.0",
+          "topics": [
+            "gemini",
+            "gemini-api",
+            "skills"
+          ],
+          "updated_at": "2026-03-31T06:01:07Z",
+          "owner_login": "google-gemini",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/google-gemini/gemini-skills"
+        },
+        "readme_excerpt": "# Gemini API skills\n\nA library of skills for the Gemini API, SDK and model interactions.\n\n## About\n\nLLMs have fixed knowledge, being trained at a specific point in time. Software\ndev is fast paced and changes often, where new libraries are launched every day\nand best practices evolve quickly.\n\nThis leaves a knowledge gap that language models can't solve on their own. For\nexample, models don't know about themselves when they're trained, and they\naren't necessarily aware of subtle changes in best ",
+        "fetched_at": "2026-03-31T06:01:09.882909+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-official/microsoft/skills",
+      "preferred_name": "microsoft/skills",
+      "category": "agent-skills-official",
+      "normalized_summary": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/microsoft/skills",
+      "source_label": "Microsoft Skills",
+      "overall_score": 0.6588,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.55,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.6,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.93,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7075,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.8500000000000001
+        },
+        "function": {
+          "coding": 0.55,
+          "review": 0.6,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.9299999999999999
+        },
+        "adoption": {
+          "popularity": 0.7075063327588503
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "recommended",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "microsoft/skills",
+          "name": "skills",
+          "description": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
+          "stargazers_count": 1901,
+          "forks_count": 215,
+          "language": "TypeScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "agent-skills",
+            "agents",
+            "azure",
+            "foundry",
+            "mcp",
+            "sdk",
+            "skills"
+          ],
+          "updated_at": "2026-03-31T05:56:01Z",
+          "owner_login": "microsoft",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/microsoft/skills"
+        },
+        "readme_excerpt": "# Agent Skills\n\n[![Evals & Tests](https://img.shields.io/github/actions/workflow/status/microsoft/skills/test-harness.yml?branch=main&label=Evals%20%26%20Tests)](https://github.com/microsoft/skills/actions/workflows/test-harness.yml)\n[![Copilot SDK Tests](https://img.shields.io/github/actions/workflow/status/microsoft/skills/skill-evaluation.yml?branch=main&label=Copilot%20SDK%20Tests)](https://github.com/microsoft/skills/actions/workflows/skill-evaluation.yml)\n[![Install via skills.sh](https://",
+        "fetched_at": "2026-03-31T06:01:06.385922+00:00"
+      }
+    },
+    {
+      "directive_id": "agent-skills-official/vercel-labs/agent-skills",
+      "preferred_name": "vercel-labs/agent-skills",
+      "category": "agent-skills-official",
+      "normalized_summary": "Vercel's official collection of agent skills",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/vercel-labs/agent-skills",
+      "source_label": "Vercel Agent Skills",
+      "overall_score": 0.4319,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 1.0,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9585,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.5,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 1.0
+        },
+        "adoption": {
+          "popularity": 0.9585359268274278
+        },
+        "clarity": {
+          "description_clarity": 0.5
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "vercel-labs/agent-skills",
+          "name": "agent-skills",
+          "description": "Vercel's official collection of agent skills",
+          "stargazers_count": 24143,
+          "forks_count": 2199,
+          "language": "JavaScript",
+          "license_spdx": null,
+          "topics": [],
+          "updated_at": "2026-03-31T05:27:24Z",
+          "owner_login": "vercel-labs",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/vercel-labs/agent-skills"
+        },
+        "readme_excerpt": "# Agent Skills\n\nA collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities.\n\nSkills follow the [Agent Skills](https://agentskills.io/) format.\n\n## Available Skills\n\n### react-best-practices\n\nReact and Next.js performance optimization guidelines from Vercel Engineering. Contains 40+ rules across 8 categories, prioritized by impact.\n\n**Use when:**\n- Writing new React components or Next.js pages\n- Implementing data fetching (client or se",
+        "fetched_at": "2026-03-31T06:01:08.138519+00:00"
+      }
+    },
+    {
+      "directive_id": "awesome-collections/ccplugins/awesome-claude-code-plugins",
+      "preferred_name": "ccplugins/awesome-claude-code-plugins",
+      "category": "awesome-collections",
+      "normalized_summary": "Awesome Claude Code plugins \u2014 a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/ccplugins/awesome-claude-code-plugins",
+      "source_label": "Awesome Claude Code Plugins",
+      "overall_score": 0.5231,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.51,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.6209,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.51
+        },
+        "adoption": {
+          "popularity": 0.6209274560105179
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "ccplugins/awesome-claude-code-plugins",
+          "name": "awesome-claude-code-plugins",
+          "description": "Awesome Claude Code plugins \u2014 a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
+          "stargazers_count": 657,
+          "forks_count": 168,
+          "language": "Python",
+          "license_spdx": "Apache-2.0",
+          "topics": [
+            "awesome-claude-code",
+            "awesome-list",
+            "awesome-plugins",
+            "awesome-resources",
+            "claude-code",
+            "claude-code-commands",
+            "claude-code-hooks",
+            "claude-code-mcp",
+            "claude-code-plugin",
+            "claude-code-subagents"
+          ],
+          "updated_at": "2026-03-31T00:14:28Z",
+          "owner_login": "ccplugins",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/ccplugins/awesome-claude-code-plugins"
+        },
+        "readme_excerpt": "# Awesome Claude Code Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n\n[![English](https://img.shields.io/badge/English-Click-yellow)](README.md)\n[![\u7b80\u4f53\u4e2d\u6587](https://img.shields.io/badge/\u7b80\u4f53\u4e2d\u6587-\u70b9\u51fb\u67e5\u770b-orange)](README-zh.md)\n\nAwesome Claude Code plugins \u2014 a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code\n\n* [What is Claude Code Plugin?](#what-is-claude-code-plugin)\n* [Use Cases](#use-cases)\n* [Plugins](#plugins)\n    - [Official Claude Code Plugins",
+        "fetched_at": "2026-03-31T06:01:17.388291+00:00"
+      }
+    },
+    {
+      "directive_id": "awesome-collections/heilcheng/awesome-agent-skills",
+      "preferred_name": "heilcheng/awesome-agent-skills",
+      "category": "awesome-collections",
+      "normalized_summary": "A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Antigravity, Copilot, VS Code)",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/heilcheng/awesome-agent-skills",
+      "source_label": "Awesome Agent Skills (heilcheng)",
+      "overall_score": 0.5995,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.53,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7655,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.8500000000000001,
+          "toolness": 0.8500000000000001
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.53
+        },
+        "adoption": {
+          "popularity": 0.7654886760662409
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "heilcheng/awesome-agent-skills",
+          "name": "awesome-agent-skills",
+          "description": "A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Antigravity, Copilot, VS Code)",
+          "stargazers_count": 3515,
+          "forks_count": 339,
+          "language": null,
+          "license_spdx": "MIT",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "ai-development",
+            "anthropic",
+            "automation",
+            "awesome",
+            "awesome-list",
+            "claude",
+            "codex",
+            "github-copilot",
+            "llm",
+            "mcp",
+            "openai",
+            "productivity",
+            "skill-md",
+            "vscode"
+          ],
+          "updated_at": "2026-03-31T03:17:35Z",
+          "owner_login": "heilcheng",
+          "owner_type": "User",
+          "html_url": "https://github.com/heilcheng/awesome-agent-skills"
+        },
+        "readme_excerpt": "# Awesome Agent Skills\n\n[English](README.md) | [\u7e41\u9ad4\u4e2d\u6587](README.zh-TW.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md) | [\u65e5\u672c\u8a9e](README.ja.md) | [\ud55c\uad6d\uc5b4](README.ko.md) | [Espa\u00f1ol](README.es.md)\n\nA curated list of skills, tools, and capabilities for AI coding agents.\n\n---\n\n## Table of Contents\n\n- [What Are Agent Skills?](#what-are-agent-skills)\n- [Compatible Agents](#compatible-agents)\n- [Skill List](#skill-list)\n- [Official Tutorials and Guides](#official-tutorials-and-guides)\n- [Using Skills](#using-skills)\n- [Creating S",
+        "fetched_at": "2026-03-31T06:01:13.217260+00:00"
+      }
+    },
+    {
+      "directive_id": "awesome-collections/libukai/awesome-agent-skills",
+      "preferred_name": "libukai/awesome-agent-skills",
+      "category": "awesome-collections",
+      "normalized_summary": "Agent Skills \u7ec8\u6781\u6307\u5357\uff1a\u5feb\u901f\u5165\u95e8\u3001\u8d44\u6e90\u63a8\u8350\u3001\u7cbe\u9009\u6280\u80fd\u4e0e\u5b9e\u7528\u5de5\u5177 \uff5cThe Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/libukai/awesome-agent-skills",
+      "source_label": "Awesome Agent Skills (libukai)",
+      "overall_score": 0.435,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.53,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7605,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 0.53
+        },
+        "adoption": {
+          "popularity": 0.7604796489782639
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "libukai/awesome-agent-skills",
+          "name": "awesome-agent-skills",
+          "description": "Agent Skills \u7ec8\u6781\u6307\u5357\uff1a\u5feb\u901f\u5165\u95e8\u3001\u8d44\u6e90\u63a8\u8350\u3001\u7cbe\u9009\u6280\u80fd\u4e0e\u5b9e\u7528\u5de5\u5177 \uff5cThe Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
+          "stargazers_count": 3690,
+          "forks_count": 240,
+          "language": "Python",
+          "license_spdx": null,
+          "topics": [
+            "agent",
+            "awsome-list",
+            "claudecode",
+            "openclaw",
+            "skills"
+          ],
+          "updated_at": "2026-03-31T05:35:18Z",
+          "owner_login": "libukai",
+          "owner_type": "User",
+          "html_url": "https://github.com/libukai/awesome-agent-skills"
+        },
+        "readme_excerpt": "<div>\n  <p align=\"center\">\n    <a href=\"https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills\">\n    <img width=\"1280\" height=\"640\" alt=\"Composio banner\" src=\"assets/media/awesome-agent-skills.png\">\n    </a>\n  </p>\n</div>\n\n<div>\n  <p align=\"center\">\n    <a href=\"https://awesome.re\">\n      <img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\" />\n    </a>\n    <a href=\"https://makeapullrequest.com\">\n      <img src=\"https://img.shields.io/b",
+        "fetched_at": "2026-03-31T06:01:11.408343+00:00"
+      }
+    },
+    {
+      "directive_id": "awesome-collections/rahulvrane/awesome-claude-agents",
+      "preferred_name": "rahulvrane/awesome-claude-agents",
+      "category": "awesome-collections",
+      "normalized_summary": "collection of awesome claude code subagents!",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/rahulvrane/awesome-claude-agents",
+      "source_label": "Awesome Claude Agents",
+      "overall_score": 0.3258,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.21,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.43,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.5183,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.45,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.21
+        },
+        "governance": {
+          "trust": 0.43
+        },
+        "adoption": {
+          "popularity": 0.5183117226409722
+        },
+        "clarity": {
+          "description_clarity": 0.45
+        }
+      },
+      "verdict": {
+        "recommendation": "caution",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "rahulvrane/awesome-claude-agents",
+          "name": "awesome-claude-agents",
+          "description": "collection of awesome claude code subagents!",
+          "stargazers_count": 301,
+          "forks_count": 29,
+          "language": null,
+          "license_spdx": "NOASSERTION",
+          "topics": [],
+          "updated_at": "2026-03-31T05:55:20Z",
+          "owner_login": "rahulvrane",
+          "owner_type": "User",
+          "html_url": "https://github.com/rahulvrane/awesome-claude-agents"
+        },
+        "readme_excerpt": "# Awesome Claude Agents \ud83d\ude80 - Complete Directory (Updated August 2025)\n\nA community-driven collection **Claude Code agents** and sub-agents\u2014turn your Claude instance into an unstoppable team of domain experts! This repo catalogs plug-and-play agents, agent frameworks, and orchestration recipes contributed by the community and curated from public sources.\n\nThe Claude Code agent ecosystem has exploded with hundreds of specialized sub-agents, frameworks, and orchestration tools. Here's the most compr",
+        "fetched_at": "2026-03-31T06:01:19.481680+00:00"
+      }
+    },
+    {
+      "directive_id": "awesome-collections/rohitg00/awesome-claude-code-toolkit",
+      "preferred_name": "rohitg00/awesome-claude-code-toolkit",
+      "category": "awesome-collections",
+      "normalized_summary": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via SkillKit), 42 commands, 150+ plugins, 19 hooks, 15 rules, 7 templates, 8 MCP configs, and more.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "source_label": "Awesome Claude Code Toolkit",
+      "overall_score": 0.504,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.43,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.6596,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.43
+        },
+        "adoption": {
+          "popularity": 0.6595845096753375
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "rohitg00/awesome-claude-code-toolkit",
+          "name": "awesome-claude-code-toolkit",
+          "description": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via SkillKit), 42 commands, 150+ plugins, 19 hooks, 15 rules, 7 templates, 8 MCP configs, and more.",
+          "stargazers_count": 965,
+          "forks_count": 246,
+          "language": "JavaScript",
+          "license_spdx": "Apache-2.0",
+          "topics": [
+            "claude",
+            "claude-code",
+            "claudecode",
+            "claudecode-hooks",
+            "plugins",
+            "skills"
+          ],
+          "updated_at": "2026-03-31T03:23:30Z",
+          "owner_login": "rohitg00",
+          "owner_type": "User",
+          "html_url": "https://github.com/rohitg00/awesome-claude-code-toolkit"
+        },
+        "readme_excerpt": "# Claude Code Toolkit\n\n**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 13 MCP configs, 26 companion apps, 51 ecosystem entries, and more.**\n\n[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n[![License: Apache-2.0](https://img.shields.io/badge/Lic",
+        "fetched_at": "2026-03-31T06:01:15.315855+00:00"
+      }
+    },
+    {
+      "directive_id": "claude-code/VoltAgent/awesome-claude-code-subagents",
+      "preferred_name": "VoltAgent/awesome-claude-code-subagents",
+      "category": "claude-code",
+      "normalized_summary": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "source_label": "Awesome Claude Code Subagents",
+      "overall_score": 0.56,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.68,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9205,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.8,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6799999999999999
+        },
+        "adoption": {
+          "popularity": 0.920487806137998
+        },
+        "clarity": {
+          "description_clarity": 0.8
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "VoltAgent/awesome-claude-code-subagents",
+          "name": "awesome-claude-code-subagents",
+          "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+          "stargazers_count": 15715,
+          "forks_count": 1766,
+          "language": "Shell",
+          "license_spdx": "MIT",
+          "topics": [
+            "ai-agent-framework",
+            "ai-agent-tools",
+            "ai-agents",
+            "awesome",
+            "awesome-list",
+            "claude",
+            "claude-ai",
+            "claude-code-subagents",
+            "claude-subagents",
+            "subagents"
+          ],
+          "updated_at": "2026-03-31T05:50:39Z",
+          "owner_login": "VoltAgent",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/VoltAgent/awesome-claude-code-subagents"
+        },
+        "readme_excerpt": "<a href=\"https://github.com/VoltAgent/voltagent\">\n<img width=\"1500\" height=\"500\" alt=\"Group 32\" src=\"https://github.com/user-attachments/assets/55b97c47-8506-4be0-b18f-f5384d063cbb\" />\n</a>\n\n<br />\n<br/>\n\n<div align=\"center\">\n    <strong>The awesome collection of Claude Code subagents.</strong>\n    <br />\n    <br />\n</div>\n\n<div align=\"center\">\n    \n[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) \n![Subagent Count](https://img.shields.io/badge/subagents-127+-blue?style=flat-square",
+        "fetched_at": "2026-03-31T06:01:23.683478+00:00"
+      }
+    },
+    {
+      "directive_id": "claude-code/Yeachan-Heo/oh-my-claudecode",
+      "preferred_name": "Yeachan-Heo/oh-my-claudecode",
+      "category": "claude-code",
+      "normalized_summary": "Teams-first Multi-agent orchestration for Claude Code",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source_label": "oh-my-claudecode",
+      "overall_score": 0.5721,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.55,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9211,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.6,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.8500000000000001,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.55,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 0.9211170326604147
+        },
+        "clarity": {
+          "description_clarity": 0.6000000000000001
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "Yeachan-Heo/oh-my-claudecode",
+          "name": "oh-my-claudecode",
+          "description": "Teams-first Multi-agent orchestration for Claude Code",
+          "stargazers_count": 17808,
+          "forks_count": 1244,
+          "language": "TypeScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "agentic-coding",
+            "ai-agents",
+            "automation",
+            "claude",
+            "claude-code",
+            "multi-agent-systems",
+            "oh-my-opencode",
+            "opencode",
+            "parallel-execution",
+            "vibe-coding"
+          ],
+          "updated_at": "2026-03-31T05:59:24Z",
+          "owner_login": "Yeachan-Heo",
+          "owner_type": "User",
+          "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
+        },
+        "readme_excerpt": "English | [\ud55c\uad6d\uc5b4](README.ko.md) | [\u4e2d\u6587](README.zh.md) | [\u65e5\u672c\u8a9e](README.ja.md) | [Espa\u00f1ol](README.es.md) | [Ti\u1ebfng Vi\u1ec7t](README.vi.md) | [Portugu\u00eas](README.pt.md)\n\n# oh-my-claudecode\n\n[![npm version](https://img.shields.io/npm/v/oh-my-claude-sisyphus?color=cb3837)](https://www.npmjs.com/package/oh-my-claude-sisyphus)\n[![npm downloads](https://img.shields.io/npm/dm/oh-my-claude-sisyphus?color=blue)](https://www.npmjs.com/package/oh-my-claude-sisyphus)\n[![GitHub stars](https://img.shields.io/github/stars",
+        "fetched_at": "2026-03-31T06:01:25.473008+00:00"
+      }
+    },
+    {
+      "directive_id": "claude-code/garrytan/gstack",
+      "preferred_name": "garrytan/gstack",
+      "category": "claude-code",
+      "normalized_summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/garrytan/gstack",
+      "source_label": "gstack",
+      "overall_score": 0.54,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 1.0,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 1.0
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "garrytan/gstack",
+          "name": "gstack",
+          "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+          "stargazers_count": 58322,
+          "forks_count": 7614,
+          "language": "TypeScript",
+          "license_spdx": "MIT",
+          "topics": [],
+          "updated_at": "2026-03-31T05:59:26Z",
+          "owner_login": "garrytan",
+          "owner_type": "User",
+          "html_url": "https://github.com/garrytan/gstack"
+        },
+        "readme_excerpt": "# gstack\n\n> \"I don't think I've typed like a line of code probably since December, basically, which is an extremely large change.\" \u2014 [Andrej Karpathy](https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw/), No Priors podcast, March 2026\n\nWhen I heard Karpathy say this, I wanted to find out how. How does one person ship like a team of twenty? Peter Steinberger built [OpenClaw](https://github.com/openclaw/openclaw) \u2014 247K GitHub stars \u2014 essen",
+        "fetched_at": "2026-03-31T06:01:27.161660+00:00"
+      }
+    },
+    {
+      "directive_id": "claude-code/hesreallyhim/awesome-claude-code",
+      "preferred_name": "hesreallyhim/awesome-claude-code",
+      "category": "claude-code",
+      "normalized_summary": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/hesreallyhim/awesome-claude-code",
+      "source_label": "Awesome Claude Code",
+      "overall_score": 0.5099,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9893,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.65,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 0.9893243879133705
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "hesreallyhim/awesome-claude-code",
+          "name": "awesome-claude-code",
+          "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+          "stargazers_count": 34659,
+          "forks_count": 2517,
+          "language": "Python",
+          "license_spdx": "NOASSERTION",
+          "topics": [
+            "agent-skills",
+            "agentic-code",
+            "agentic-coding",
+            "ai-workflow-optimization",
+            "ai-workflows",
+            "anthropic",
+            "anthropic-claude",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-resources",
+            "claude",
+            "claude-code",
+            "coding-agent",
+            "coding-agents",
+            "coding-assistant",
+            "coding-assistants",
+            "llm"
+          ],
+          "updated_at": "2026-03-31T05:57:53Z",
+          "owner_login": "hesreallyhim",
+          "owner_type": "User",
+          "html_url": "https://github.com/hesreallyhim/awesome-claude-code"
+        },
+        "readme_excerpt": "<!-- GENERATED FILE: do not edit directly -->\n<h3 align=\"center\">Pick Your Style:</h3>\n<p align=\"center\">\n<a href=\"./\"><img src=\"assets/badge-style-awesome.svg\" alt=\"Awesome\" height=\"28\" style=\"border: 2px solid #cc3366; border-radius: 4px;\"></a>\n<a href=\"README_ALTERNATIVES/README_EXTRA.md\"><img src=\"assets/badge-style-extra.svg\" alt=\"Extra\" height=\"28\"></a>\n<a href=\"README_ALTERNATIVES/README_CLASSIC.md\"><img src=\"assets/badge-style-classic.svg\" alt=\"Classic\" height=\"28\"></a>\n<a href=\"README_A",
+        "fetched_at": "2026-03-31T06:01:21.584619+00:00"
+      }
+    },
+    {
+      "directive_id": "clawhub/LeoYeAI/openclaw-master-skills",
+      "preferred_name": "LeoYeAI/openclaw-master-skills",
+      "category": "clawhub",
+      "normalized_summary": "\ud83e\udde0 Curated collection of 339+ best OpenClaw skills \u2014 weekly updated by MyClaw.ai from ClawHub, GitHub & community. AI, productivity, dev, marketing, finance & more.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/LeoYeAI/openclaw-master-skills",
+      "source_label": "OpenClaw Master Skills (curated)",
+      "overall_score": 0.4699,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.53,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7186,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.85,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.53
+        },
+        "adoption": {
+          "popularity": 0.7185722405560674
+        },
+        "clarity": {
+          "description_clarity": 0.85
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "LeoYeAI/openclaw-master-skills",
+          "name": "openclaw-master-skills",
+          "description": "\ud83e\udde0 Curated collection of 339+ best OpenClaw skills \u2014 weekly updated by MyClaw.ai from ClawHub, GitHub & community. AI, productivity, dev, marketing, finance & more.",
+          "stargazers_count": 1920,
+          "forks_count": 324,
+          "language": "Python",
+          "license_spdx": "MIT",
+          "topics": [
+            "agentskills",
+            "ai-agent",
+            "curated",
+            "myclaw",
+            "openclaw",
+            "skill-collection",
+            "skills",
+            "weekly"
+          ],
+          "updated_at": "2026-03-31T04:04:58Z",
+          "owner_login": "LeoYeAI",
+          "owner_type": "User",
+          "html_url": "https://github.com/LeoYeAI/openclaw-master-skills"
+        },
+        "readme_excerpt": "<div align=\"center\">\n\n# \ud83e\udde0 OpenClaw Master Skills\n\n<a href=\"https://myclaw.ai\">\n  <img src=\"https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge\" alt=\"Powered by MyClaw.ai\" />\n</a>\n<img src=\"https://img.shields.io/badge/Skills-387%2B-orange?style=for-the-badge\" alt=\"387+ Skills\" />\n<img src=\"https://img.shields.io/badge/Updated-Weekly-green?style=for-the-badge\" alt=\"Weekly Updates\" />\n\n**Languages:**\n[English](README.md) \u00b7 [\u4e2d\u6587](README.zh-CN.md) \u00b7 [Fran\u00e7ais](README.fr.md) \u00b7",
+        "fetched_at": "2026-03-31T06:01:32.080209+00:00"
+      }
+    },
+    {
+      "directive_id": "clawhub/openclaw/clawhub",
+      "preferred_name": "openclaw/clawhub",
+      "category": "clawhub",
+      "normalized_summary": "Skill Directory for OpenClaw",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/openclaw/clawhub",
+      "source_label": "OpenClaw ClawHub",
+      "overall_score": 0.51,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.6,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 1.0,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.8504,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.6,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 1.0
+        },
+        "adoption": {
+          "popularity": 0.8504357185474332
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "openclaw/clawhub",
+          "name": "clawhub",
+          "description": "Skill Directory for OpenClaw",
+          "stargazers_count": 7211,
+          "forks_count": 1139,
+          "language": "TypeScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "directory",
+            "skill"
+          ],
+          "updated_at": "2026-03-31T05:57:35Z",
+          "owner_login": "openclaw",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/openclaw/clawhub"
+        },
+        "readme_excerpt": "<p align=\"center\">\n  <img src=\"public/clawd-logo.png\" alt=\"ClawHub\" width=\"120\">\n</p>\n\n<h1 align=\"center\">ClawHub</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/openclaw/clawhub/actions/workflows/ci.yml?branch=main\"><img src=\"https://img.shields.io/github/actions/workflow/status/openclaw/clawhub/ci.yml?branch=main&style=for-the-badge\" alt=\"CI status\"></a>\n  <a href=\"https://discord.gg/clawd\"><img src=\"https://img.shields.io/discord/1456350064065904867?label=Discord&logo=discord&logoColor",
+        "fetched_at": "2026-03-31T06:01:28.915559+00:00"
+      }
+    },
+    {
+      "directive_id": "clawhub/openclaw/skills",
+      "preferred_name": "openclaw/skills",
+      "category": "clawhub",
+      "normalized_summary": "All versions of all skills that are on clawhub.com archived",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/openclaw/skills",
+      "source_label": "OpenClaw Skills Archive",
+      "overall_score": 0.4925,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.93,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7952,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.6,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.9299999999999999
+        },
+        "adoption": {
+          "popularity": 0.795217333121443
+        },
+        "clarity": {
+          "description_clarity": 0.6000000000000001
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "openclaw/skills",
+          "name": "skills",
+          "description": "All versions of all skills that are on clawhub.com archived",
+          "stargazers_count": 3616,
+          "forks_count": 1013,
+          "language": "Python",
+          "license_spdx": "MIT",
+          "topics": [
+            "archive",
+            "backup",
+            "clawhub",
+            "openclaw",
+            "skill"
+          ],
+          "updated_at": "2026-03-31T05:55:44Z",
+          "owner_login": "openclaw",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/openclaw/skills"
+        },
+        "readme_excerpt": "# Skills\n\nSkills in this repository are backed up from https://clawdhub.com - check them out there for an easier experience (or have your clawdbot do it!)\n\nDisclaimer: there may be suspicious or malicious skills within this repo. We do retain them for a short time for further analysis, we recommend you only use the site to download skills from, and treat this as a historical archive instead.",
+        "fetched_at": "2026-03-31T06:01:30.607090+00:00"
+      }
+    },
+    {
+      "directive_id": "codex/ComposioHQ/awesome-codex-skills",
+      "preferred_name": "ComposioHQ/awesome-codex-skills",
+      "category": "codex",
+      "normalized_summary": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "source_label": "Awesome Codex Skills",
+      "overall_score": 0.4604,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.51,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.5842,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 0.51
+        },
+        "adoption": {
+          "popularity": 0.5842097707754192
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "ComposioHQ/awesome-codex-skills",
+          "name": "awesome-codex-skills",
+          "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+          "stargazers_count": 562,
+          "forks_count": 62,
+          "language": "Python",
+          "license_spdx": null,
+          "topics": [
+            "codex",
+            "codex-cli",
+            "codex-skills",
+            "coding-agent-skills",
+            "coding-agents",
+            "gpt-5-1-codex",
+            "gpt-5-codex",
+            "llm",
+            "skills"
+          ],
+          "updated_at": "2026-03-30T15:42:17Z",
+          "owner_login": "ComposioHQ",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/ComposioHQ/awesome-codex-skills"
+        },
+        "readme_excerpt": "<h1 align=\"center\">Awesome Codex Skills</h1>\n\n<p align=\"center\">\n<a href=\"https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeCodexSkills\">\n\n  <img width=\"1280\" height=\"640\" alt=\"Composio banner\" src=\"codex_cover_image.png\">\n</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://awesome.re\">\n    <img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\" />\n  </a>\n  <a href=\"https://makeapullrequest.com\">\n    <img src=\"https://img.shields.io/badge/PRs-",
+        "fetched_at": "2026-03-31T06:01:35.552938+00:00"
+      }
+    },
+    {
+      "directive_id": "codex/KarelDO/awesome-codex",
+      "preferred_name": "KarelDO/awesome-codex",
+      "category": "codex",
+      "normalized_summary": "A list dedicated to products, demos and articles related to \ud83e\udd16 OpenAI's Codex.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/KarelDO/awesome-codex",
+      "source_label": "Awesome Codex",
+      "overall_score": 0.4668,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.6,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.35,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.4685,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.6,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.35
+        },
+        "adoption": {
+          "popularity": 0.46848043674113604
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "KarelDO/awesome-codex",
+          "name": "awesome-codex",
+          "description": "A list dedicated to products, demos and articles related to \ud83e\udd16 OpenAI's Codex.",
+          "stargazers_count": 188,
+          "forks_count": 16,
+          "language": null,
+          "license_spdx": "MIT",
+          "topics": [
+            "artificial-intelligence",
+            "awesome",
+            "awesome-list",
+            "codex",
+            "gpt3",
+            "machine-learning",
+            "nlp",
+            "openai"
+          ],
+          "updated_at": "2026-03-28T18:28:28Z",
+          "owner_login": "KarelDO",
+          "owner_type": "User",
+          "html_url": "https://github.com/KarelDO/awesome-codex"
+        },
+        "readme_excerpt": "# Awesome OpenAI Codex\nA list dedicated to products, demos and articles related to \ud83e\udd16 OpenAI's [Codex](https://openai.com/blog/openai-codex/).\nHappy exploring \ud83e\udded!\n\n* [OpenAI API](https://beta.openai.com/playground)\n* [OpenAI Codex Javascript Sandbox](https://beta.openai.com/codex-javascript-sandbox)\n\n![Awesome OpenAI Codex image](awesome-codex.png)  \nAlso check out [awesome GPT3](https://github.com/elyase/awesome-gpt3), for a list of GPT3 demos and products.\n\n## Contributing\nFeel free to open a PR",
+        "fetched_at": "2026-03-31T06:01:37.121031+00:00"
+      }
+    },
+    {
+      "directive_id": "codex/VoltAgent/awesome-codex-subagents",
+      "preferred_name": "VoltAgent/awesome-codex-subagents",
+      "category": "codex",
+      "normalized_summary": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/VoltAgent/awesome-codex-subagents",
+      "source_label": "Awesome Codex Subagents",
+      "overall_score": 0.4769,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.61,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7587,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.61
+        },
+        "adoption": {
+          "popularity": 0.7587145359585687
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "VoltAgent/awesome-codex-subagents",
+          "name": "awesome-codex-subagents",
+          "description": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
+          "stargazers_count": 3139,
+          "forks_count": 364,
+          "language": null,
+          "license_spdx": "MIT",
+          "topics": [
+            "ai-agents",
+            "awesome-list",
+            "chatgpt",
+            "codex",
+            "codex-skills",
+            "codex-subagents",
+            "subagents"
+          ],
+          "updated_at": "2026-03-31T05:13:26Z",
+          "owner_login": "VoltAgent",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/VoltAgent/awesome-codex-subagents"
+        },
+        "readme_excerpt": "<a href=\"https://github.com/VoltAgent/voltagent\">\n    <img width=\"1500\" height=\"500\" alt=\"codex\" src=\"https://github.com/user-attachments/assets/35f56654-e3e7-4023-a7d5-acd5215455de\" />\n</a>\n\n<br />\n<br />\n\n<div align=\"center\">\n    <strong>The awesome collection of 136+ Codex subagents across 10 categories.</strong>\n    <br />\n    <br />\n</div>\n\n   \n<div align=\"center\">\n    \n[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n![Subagent Count](https://img.shields.io/badge/subagents-13",
+        "fetched_at": "2026-03-31T06:01:33.835571+00:00"
+      }
+    },
+    {
+      "directive_id": "codex/hashgraph-online/awesome-codex-plugins",
+      "preferred_name": "hashgraph-online/awesome-codex-plugins",
+      "category": "codex",
+      "normalized_summary": "A curated list of awesome OpenAI Codex plugins, skills, and resources. See live plugins at: https://hol.org/registry/plugins ",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/hashgraph-online/awesome-codex-plugins",
+      "source_label": "Awesome Codex Plugins",
+      "overall_score": 0.4213,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.33,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.2334,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.33
+        },
+        "adoption": {
+          "popularity": 0.2334135497217158
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "hashgraph-online/awesome-codex-plugins",
+          "name": "awesome-codex-plugins",
+          "description": "A curated list of awesome OpenAI Codex plugins, skills, and resources. See live plugins at: https://hol.org/registry/plugins ",
+          "stargazers_count": 11,
+          "forks_count": 5,
+          "language": "JavaScript",
+          "license_spdx": "Apache-2.0",
+          "topics": [
+            "ai-coding",
+            "awesome",
+            "awesome-list",
+            "codex",
+            "codex-plugins",
+            "openai"
+          ],
+          "updated_at": "2026-03-31T00:01:08Z",
+          "owner_login": "hashgraph-online",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/hashgraph-online/awesome-codex-plugins"
+        },
+        "readme_excerpt": "<p align=\"center\">\n  <br>\n  <img width=\"80\" src=\"https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg\" alt=\"Awesome\">\n  <br>\n</p>\n\n<h1 align=\"center\">Awesome Codex Plugins</h1>\n\n<p align=\"center\">A curated list of awesome OpenAI Codex plugins, skills, and resources.</p>\n\n<p align=\"center\">\n  <a href=\"http://makeapullrequest.com\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Welcome\"></a>\n  <a href=\"https://opensource.",
+        "fetched_at": "2026-03-31T06:01:38.782162+00:00"
+      }
+    },
+    {
+      "directive_id": "cursor-rules/araguaci/cursor-skills",
+      "preferred_name": "araguaci/cursor-skills",
+      "category": "cursor-rules",
+      "normalized_summary": "CURSOR IDE best practices and guidelines",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/araguaci/cursor-skills",
+      "source_label": "Cursor Skills",
+      "overall_score": 0.4484,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.35,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.3841,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.5,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.8500000000000001,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.35
+        },
+        "adoption": {
+          "popularity": 0.38407024814116975
+        },
+        "clarity": {
+          "description_clarity": 0.5
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "araguaci/cursor-skills",
+          "name": "cursor-skills",
+          "description": "CURSOR IDE best practices and guidelines",
+          "stargazers_count": 61,
+          "forks_count": 16,
+          "language": "JavaScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "automation",
+            "best-practices",
+            "community",
+            "cursor-ide",
+            "development",
+            "documentation",
+            "javascript",
+            "nodejs",
+            "php",
+            "python",
+            "templates",
+            "web-development"
+          ],
+          "updated_at": "2026-03-28T23:04:48Z",
+          "owner_login": "araguaci",
+          "owner_type": "User",
+          "html_url": "https://github.com/araguaci/cursor-skills"
+        },
+        "readme_excerpt": "![Version](https://img.shields.io/badge/version-0.4.0-blue.svg)\n![License](https://img.shields.io/badge/license-MIT-green.svg)\n![Status](https://img.shields.io/badge/status-production-brightgreen.svg)\n![Validation](https://img.shields.io/badge/validation-95%25-success.svg)\n![Tests](https://img.shields.io/badge/tests-96%25-success.svg)\n![Links](https://img.shields.io/badge/links-95%25-success.svg)\n\n# CURSOR-SKILLS Community Repository\n\n## Overview\nA comprehensive repository of best practices, rul",
+        "fetched_at": "2026-03-31T06:01:43.510473+00:00"
+      }
+    },
+    {
+      "directive_id": "cursor-rules/chrisboden/cursor-skills",
+      "preferred_name": "chrisboden/cursor-skills",
+      "category": "cursor-rules",
+      "normalized_summary": null,
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/chrisboden/cursor-skills",
+      "source_label": "Cursor Skills (chrisboden)",
+      "overall_score": 0.2189,
+      "scores": {
+        "skillness": {
+          "score": 0.25,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.25,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.2794,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.15,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.25,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 0.25
+        },
+        "adoption": {
+          "popularity": 0.2793607411753739
+        },
+        "clarity": {
+          "description_clarity": 0.15
+        }
+      },
+      "verdict": {
+        "recommendation": "caution",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "chrisboden/cursor-skills",
+          "name": "cursor-skills",
+          "description": "",
+          "stargazers_count": 19,
+          "forks_count": 7,
+          "language": "Python",
+          "license_spdx": null,
+          "topics": [],
+          "updated_at": "2026-03-29T23:28:20Z",
+          "owner_login": "chrisboden",
+          "owner_type": "User",
+          "html_url": "https://github.com/chrisboden/cursor-skills"
+        },
+        "readme_excerpt": "# Cursor Skills Starter\n\nA starter template for leveraging the skills pattern in Cursor, as pioneered by Claude Code.\n\n## Overview\n\nThis repository transforms Cursor into a **general-purpose AI agent** through the combination of two key components:\n\n### 1. **Role-Based Rules System** (`.cursor/rules/main_rule.mdc`)\n\nThe rules file defines two distinct operational roles that the AI agent can assume:\n\n- **Orchestrator** (Default): The key innovation - delegates tasks to specialised skills via MCP ",
+        "fetched_at": "2026-03-31T06:01:45.044342+00:00"
+      }
+    },
+    {
+      "directive_id": "cursor-rules/flyeric0212/cursor-rules",
+      "preferred_name": "flyeric0212/cursor-rules",
+      "category": "cursor-rules",
+      "normalized_summary": "\u6574\u7406\u548c\u6536\u96c6\u6765\u81ea\u4e0d\u540c\u9879\u76ee\u7684Cursor\u89c4\u5219\u6587\u4ef6\uff0c\u63d0\u4f9b\u591a\u79cd\u7f16\u7a0b\u8bed\u8a00\u548c\u6846\u67b6\u7684\u89c4\u5219\u652f\u6301\u3002",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/flyeric0212/cursor-rules",
+      "source_label": "Cursor Rules Collection",
+      "overall_score": 0.3403,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.21,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.53,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7134,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.45,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.21
+        },
+        "governance": {
+          "trust": 0.53
+        },
+        "adoption": {
+          "popularity": 0.7134401074012111
+        },
+        "clarity": {
+          "description_clarity": 0.45
+        }
+      },
+      "verdict": {
+        "recommendation": "caution",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "flyeric0212/cursor-rules",
+          "name": "cursor-rules",
+          "description": "\u6574\u7406\u548c\u6536\u96c6\u6765\u81ea\u4e0d\u540c\u9879\u76ee\u7684Cursor\u89c4\u5219\u6587\u4ef6\uff0c\u63d0\u4f9b\u591a\u79cd\u7f16\u7a0b\u8bed\u8a00\u548c\u6846\u67b6\u7684\u89c4\u5219\u652f\u6301\u3002",
+          "stargazers_count": 1752,
+          "forks_count": 348,
+          "language": null,
+          "license_spdx": null,
+          "topics": [
+            "cursor",
+            "cursor-rules"
+          ],
+          "updated_at": "2026-03-31T02:26:19Z",
+          "owner_login": "flyeric0212",
+          "owner_type": "User",
+          "html_url": "https://github.com/flyeric0212/cursor-rules"
+        },
+        "readme_excerpt": "# Cursor Rules \u89c4\u5219\u6c47\u603b\n\n\u672c\u9879\u76ee\u7528\u4e8e\u6536\u96c6\u3001\u6574\u7406\u548c\u6807\u51c6\u5316 Cursor Rules \u89c4\u5219\u6587\u4ef6\uff0c\u63d0\u4f9b\u591a\u79cd\u7f16\u7a0b\u8bed\u8a00\u548c\u6846\u67b6\u7684\u89c4\u5219\u652f\u6301\uff0c\u4f7f\u5f00\u53d1\u8005\u80fd\u591f\u66f4\u6709\u6548\u5730\u5229\u7528 Cursor \u8fdb\u884c\u5f00\u53d1\u5de5\u4f5c\u3002\n\n## Cursor Rules \u6700\u4f73\u5b9e\u8df5\n\n\u6587\u7ae0\u6559\u7a0b\uff1a\n\n- [Cursor Rules \u6700\u4f73\u5b9e\u8df5\u603b\u7ed3](https://mp.weixin.qq.com/s/-J_LwfwH9rmFy4dzEy0RXg)\n- [Cursor Rules \u8fdb\u9636\u6307\u5357\uff1a\u6253\u9020\u4f01\u4e1a\u7ea7\u591a\u8bed\u8a00\u5f00\u53d1\u89c4\u8303](https://mp.weixin.qq.com/s/rfanrMtMMuyUTwsDYmlxSg)\n- [Cursor 0.49.x \u81ea\u52a8\u5316\u751f\u6210 Project Rules \u5b9e\u7528\u6307\u5357](https://mp.weixin.qq.com/s/1yTkzYzOFjty1D0gtYHuHA)\n- [Cursor Rules \u7684\u4e00\u6b21\u5168\u9762\u603b\u7ed3\uff0c\u5e0c\u671b\u80fd\u591f\u5e2e\u52a9\u5230\u4f60\uff01](https://mp.weixin.qq.com/s/l8r2lJlEv5fKWJRSsSd1kQ)\n- [Cursor Rules \u56db\u5927\u539f\u5219\uff1a\u8ba9AI\u4ee3\u7801\u751f\u6210\u66f4\u7a33",
+        "fetched_at": "2026-03-31T06:01:41.856716+00:00"
+      }
+    },
+    {
+      "directive_id": "cursor-rules/sanjeed5/awesome-cursor-rules-mdc",
+      "preferred_name": "sanjeed5/awesome-cursor-rules-mdc",
+      "category": "cursor-rules",
+      "normalized_summary": "Curated list of awesome Cursor Rules .mdc files",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/sanjeed5/awesome-cursor-rules-mdc",
+      "source_label": "Awesome Cursor Rules (.mdc)",
+      "overall_score": 0.4498,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.53,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7683,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.6,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.53
+        },
+        "adoption": {
+          "popularity": 0.768268087758415
+        },
+        "clarity": {
+          "description_clarity": 0.6000000000000001
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "sanjeed5/awesome-cursor-rules-mdc",
+          "name": "awesome-cursor-rules-mdc",
+          "description": "Curated list of awesome Cursor Rules .mdc files",
+          "stargazers_count": 3423,
+          "forks_count": 410,
+          "language": "Python",
+          "license_spdx": "CC0-1.0",
+          "topics": [],
+          "updated_at": "2026-03-30T19:36:59Z",
+          "owner_login": "sanjeed5",
+          "owner_type": "User",
+          "html_url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc"
+        },
+        "readme_excerpt": "# MDC Rules Generator\n\n> **Disclaimer:** This project is not officially associated with or endorsed by Cursor. It is a community-driven initiative to enhance the Cursor experience.\n\nThis project generates Cursor MDC (Markdown Cursor) rule files from a structured JSON file containing library information. It uses Exa for semantic search and LLM (Gemini) for content generation.\n\n[![Star History Chart](https://api.star-history.com/svg?repos=sanjeed5/awesome-cursor-rules-mdc&type=Date)](https://www.s",
+        "fetched_at": "2026-03-31T06:01:40.309298+00:00"
+      }
+    },
+    {
+      "directive_id": "llm-tools/Hannibal046/Awesome-LLM",
+      "preferred_name": "Hannibal046/Awesome-LLM",
+      "category": "llm-tools",
+      "normalized_summary": "Awesome-LLM: a curated list of Large Language Model",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/Hannibal046/Awesome-LLM",
+      "source_label": "Awesome LLM",
+      "overall_score": 0.4518,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.7,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9681,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.6,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.7
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 0.9680645126217777
+        },
+        "clarity": {
+          "description_clarity": 0.6000000000000001
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "Hannibal046/Awesome-LLM",
+          "name": "Awesome-LLM",
+          "description": "Awesome-LLM: a curated list of Large Language Model",
+          "stargazers_count": 26568,
+          "forks_count": 2407,
+          "language": null,
+          "license_spdx": "CC0-1.0",
+          "topics": [],
+          "updated_at": "2026-03-31T03:50:54Z",
+          "owner_login": "Hannibal046",
+          "owner_type": "User",
+          "html_url": "https://github.com/Hannibal046/Awesome-LLM"
+        },
+        "readme_excerpt": "# Awesome-LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n\n![](resources/image8.gif)\n\n\ud83d\udd25 Large Language Models(LLM) have taken the ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about large language models, especially relating to ChatGPT. It also contains frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs.\n\n## Trending LLM Projects\n\n- [TinyZero](",
+        "fetched_at": "2026-03-31T06:01:46.738803+00:00"
+      }
+    },
+    {
+      "directive_id": "llm-tools/tensorchord/Awesome-LLMOps",
+      "preferred_name": "tensorchord/Awesome-LLMOps",
+      "category": "llm-tools",
+      "normalized_summary": "An awesome & curated list of best LLMOps tools for developers",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/tensorchord/Awesome-LLMOps",
+      "source_label": "Awesome LLMOps",
+      "overall_score": 0.5348,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.68,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.8178,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.8,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6799999999999999
+        },
+        "adoption": {
+          "popularity": 0.8178186623527002
+        },
+        "clarity": {
+          "description_clarity": 0.8
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "tensorchord/Awesome-LLMOps",
+          "name": "Awesome-LLMOps",
+          "description": "An awesome & curated list of best LLMOps tools for developers",
+          "stargazers_count": 5685,
+          "forks_count": 638,
+          "language": "Shell",
+          "license_spdx": "CC0-1.0",
+          "topics": [
+            "ai-development-tools",
+            "awesome-list",
+            "llmops",
+            "mlops"
+          ],
+          "updated_at": "2026-03-31T04:53:17Z",
+          "owner_login": "tensorchord",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/tensorchord/Awesome-LLMOps"
+        },
+        "readme_excerpt": "# Awesome LLMOps\n\n<a href=\"https://discord.gg/KqswhpVgdU\"><img alt=\"discord invitation link\" src=\"https://img.shields.io/discord/974584200327991326?style=flat&logo=discord&cacheSeconds=60\"></a>\n<a href=\"https://awesome.re\"><img src=\"https://awesome.re/badge-flat2.svg\"></a>\n\nAn awesome & curated list of the best LLMOps tools for developers.\n\n> [!NOTE]\n> Contributions are most welcome, please adhere to the [contribution guidelines](contributing.md).\n\n## Table of Contents\n\n- [Awesome LLMOps](#aweso",
+        "fetched_at": "2026-03-31T06:01:50.167644+00:00"
+      }
+    },
+    {
+      "directive_id": "llm-tools/xlite-dev/Awesome-LLM-Inference",
+      "preferred_name": "xlite-dev/Awesome-LLM-Inference",
+      "category": "llm-tools",
+      "normalized_summary": "\ud83d\udcdaA curated list of Awesome LLM/VLM Inference Papers with Codes: Flash-Attention, Paged-Attention, WINT8/4, Parallelism, etc.\ud83c\udf89",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/xlite-dev/Awesome-LLM-Inference",
+      "source_label": "Awesome LLM Inference",
+      "overall_score": 0.4925,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.8,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.68,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7949,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.85,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.8
+        },
+        "governance": {
+          "trust": 0.6799999999999999
+        },
+        "adoption": {
+          "popularity": 0.7948891433889418
+        },
+        "clarity": {
+          "description_clarity": 0.85
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "xlite-dev/Awesome-LLM-Inference",
+          "name": "Awesome-LLM-Inference",
+          "description": "\ud83d\udcdaA curated list of Awesome LLM/VLM Inference Papers with Codes: Flash-Attention, Paged-Attention, WINT8/4, Parallelism, etc.\ud83c\udf89",
+          "stargazers_count": 5104,
+          "forks_count": 355,
+          "language": "Python",
+          "license_spdx": "GPL-3.0",
+          "topics": [
+            "awesome-llm",
+            "deepseek",
+            "deepseek-r1",
+            "deepseek-v3",
+            "flash-attention",
+            "flash-attention-3",
+            "flash-mla",
+            "llm-inference",
+            "minimax-01",
+            "mla",
+            "paged-attention",
+            "qwen3",
+            "tensorrt-llm",
+            "vllm"
+          ],
+          "updated_at": "2026-03-31T02:11:54Z",
+          "owner_login": "xlite-dev",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/xlite-dev/Awesome-LLM-Inference"
+        },
+        "readme_excerpt": "<div align='center'>\n  <img src=https://github.com/user-attachments/assets/fcd83ff2-7ace-4fb5-8d3b-3ccbc1ecbf87 width=250px >\n</div>\n\n<div align='center'>\n  <img src=https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg >\n  <img src=https://img.shields.io/github/downloads/xlite-dev/Awesome-LLM-Inference/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >\n  <img src=https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg",
+        "fetched_at": "2026-03-31T06:01:48.504987+00:00"
+      }
+    },
+    {
+      "directive_id": "mcp/appcypher/awesome-mcp-servers",
+      "preferred_name": "appcypher/awesome-mcp-servers",
+      "category": "mcp",
+      "normalized_summary": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/appcypher/awesome-mcp-servers",
+      "source_label": "Awesome MCP Servers (appcypher)",
+      "overall_score": 0.4986,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.21,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.8256,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.8500000000000001
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.21
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 0.8255693965466486
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "caution",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "appcypher/awesome-mcp-servers",
+          "name": "awesome-mcp-servers",
+          "description": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
+          "stargazers_count": 5330,
+          "forks_count": 1053,
+          "language": null,
+          "license_spdx": null,
+          "topics": [
+            "ai",
+            "anthropic-claude",
+            "awesome",
+            "context",
+            "mcp",
+            "model-context-protocol",
+            "servers",
+            "tool-use",
+            "tools"
+          ],
+          "updated_at": "2026-03-31T05:06:49Z",
+          "owner_login": "appcypher",
+          "owner_type": "User",
+          "html_url": "https://github.com/appcypher/awesome-mcp-servers"
+        },
+        "readme_excerpt": "# Awesome MCP Servers ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)\n\nA curated list of awesome Model Context Protocol (MCP) servers. MCP is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations,",
+        "fetched_at": "2026-03-31T06:01:56.965032+00:00"
+      }
+    },
+    {
+      "directive_id": "mcp/chatmcp/mcpso",
+      "preferred_name": "chatmcp/mcpso",
+      "category": "mcp",
+      "normalized_summary": "directory for Awesome MCP Servers",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/chatmcp/mcpso",
+      "source_label": "MCP Directory (mcpso)",
+      "overall_score": 0.5669,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.8,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.61,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7087,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.8500000000000001
+        },
+        "function": {
+          "coding": 0.8,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.61
+        },
+        "adoption": {
+          "popularity": 0.7086969863513677
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "chatmcp/mcpso",
+          "name": "mcpso",
+          "description": "directory for Awesome MCP Servers",
+          "stargazers_count": 1988,
+          "forks_count": 197,
+          "language": "TypeScript",
+          "license_spdx": "Apache-2.0",
+          "topics": [
+            "awesome-mcp-servers",
+            "mcp",
+            "mcp-server-store",
+            "mcp-servers",
+            "mcp-servers-directory"
+          ],
+          "updated_at": "2026-03-30T23:02:53Z",
+          "owner_login": "chatmcp",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/chatmcp/mcpso"
+        },
+        "readme_excerpt": "## MCP Directory\n\na directory for Awesome MCP Servers.\n\nlive preview: [https://mcp.so](https://mcp.so)\n\n![preview](./preview.png)\n\n## Quick Start\n\n1. clone the repo\n\n```bash\ngit clone https://github.com/chatmcp/mcp-directory.git\ncd mcp-directory\n```\n\n2. install dependencies\n\n```bash\npnpm install\n```\n\n3. prepare database\n\ncreate a database with [Supabase](https://supabase.com/)\n\nrun the sql file in `data/install.sql`\n\n4. set env variables\n\nput a .env file in the root directory\n\nwith env variables",
+        "fetched_at": "2026-03-31T06:01:58.512895+00:00"
+      }
+    },
+    {
+      "directive_id": "mcp/modelcontextprotocol/servers",
+      "preferred_name": "modelcontextprotocol/servers",
+      "category": "mcp",
+      "normalized_summary": "Model Context Protocol Servers",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/modelcontextprotocol/servers",
+      "source_label": "MCP Official Servers",
+      "overall_score": 0.431,
+      "scores": {
+        "skillness": {
+          "score": 0.25,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 1.0,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 1.0,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.25,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 1.0
+        },
+        "adoption": {
+          "popularity": 1.0
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "modelcontextprotocol/servers",
+          "name": "servers",
+          "description": "Model Context Protocol Servers",
+          "stargazers_count": 82563,
+          "forks_count": 10135,
+          "language": "TypeScript",
+          "license_spdx": "NOASSERTION",
+          "topics": [],
+          "updated_at": "2026-03-31T06:00:23Z",
+          "owner_login": "modelcontextprotocol",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/modelcontextprotocol/servers"
+        },
+        "readme_excerpt": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of refer",
+        "fetched_at": "2026-03-31T06:01:51.962450+00:00"
+      }
+    },
+    {
+      "directive_id": "oh-my-tools/TechDufus/oh-my-claude",
+      "preferred_name": "TechDufus/oh-my-claude",
+      "category": "oh-my-tools",
+      "normalized_summary": "Add ultrawork to any prompt for maximum parallel execution",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/TechDufus/oh-my-claude",
+      "source_label": "oh-my-claude",
+      "overall_score": 0.4486,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.85,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.35,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.386,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.5,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.8500000000000001,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.35
+        },
+        "adoption": {
+          "popularity": 0.38598534227355524
+        },
+        "clarity": {
+          "description_clarity": 0.5
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "TechDufus/oh-my-claude",
+          "name": "oh-my-claude",
+          "description": "Add ultrawork to any prompt for maximum parallel execution",
+          "stargazers_count": 102,
+          "forks_count": 3,
+          "language": "Python",
+          "license_spdx": "MIT",
+          "topics": [
+            "ai",
+            "automation",
+            "claude",
+            "claude-code",
+            "plugin",
+            "productivity"
+          ],
+          "updated_at": "2026-03-30T18:16:11Z",
+          "owner_login": "TechDufus",
+          "owner_type": "User",
+          "html_url": "https://github.com/TechDufus/oh-my-claude"
+        },
+        "readme_excerpt": "<img width=\"1328\" height=\"611\" alt=\"oh-my-claude_hero\" src=\"https://github.com/user-attachments/assets/ca862678-da89-45c3-8385-fb45415c1b6e\" />\n\n<p align=\"center\">\n  <a href=\"https://github.com/TechDufus/oh-my-claude/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/TechDufus/oh-my-claude?style=flat-square\" alt=\"License\"></a>\n  <a href=\"https://github.com/TechDufus/oh-my-claude/stargazers\"><img src=\"https://img.shields.io/github/stars/TechDufus/oh-my-claude?style=flat-square\" al",
+        "fetched_at": "2026-03-31T06:02:00.005708+00:00"
+      }
+    },
+    {
+      "directive_id": "prompts/ai-boost/awesome-prompts",
+      "preferred_name": "ai-boost/awesome-prompts",
+      "category": "prompts",
+      "normalized_summary": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/ai-boost/awesome-prompts",
+      "source_label": "Awesome Prompts",
+      "overall_score": 0.4691,
+      "scores": {
+        "skillness": {
+          "score": 0.9,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.55,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.6,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.8406,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.9,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.55
+        },
+        "governance": {
+          "trust": 0.6
+        },
+        "adoption": {
+          "popularity": 0.8406191901039916
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "ai-boost/awesome-prompts",
+          "name": "awesome-prompts",
+          "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
+          "stargazers_count": 7492,
+          "forks_count": 688,
+          "language": null,
+          "license_spdx": "GPL-3.0",
+          "topics": [
+            "awesome",
+            "awesome-list",
+            "chatgpt",
+            "gpt4",
+            "gpts",
+            "gptstore",
+            "papers",
+            "prompt",
+            "prompt-engineering"
+          ],
+          "updated_at": "2026-03-31T04:29:25Z",
+          "owner_login": "ai-boost",
+          "owner_type": "User",
+          "html_url": "https://github.com/ai-boost/awesome-prompts"
+        },
+        "readme_excerpt": "<div align=\"center\">\n  <h2 align=\"center\">Awesome Prompts \ud83e\udeb6</h2>\n  <p align=\"center\">\n    <img width=\"650\" src=\"https://raw.githubusercontent.com/ai-boost/awesome-prompts/main/assets/banner.png\">\n  </p>\n  <p align=\"center\">Curated prompts, frameworks, and papers \u2014 with an engineering bias.</p>\n  <!-- Keep these links. Translations will automatically update with the README. -->\n  <p align=\"center\">\n    <a href=\"https://zdoc.app/de/ai-boost/awesome-prompts\">Deutsch</a> |\n    <a href=\"https://zdoc.",
+        "fetched_at": "2026-03-31T06:02:01.495648+00:00"
+      }
+    },
+    {
+      "directive_id": "prompts/google-labs-code/jules-awesome-list",
+      "preferred_name": "google-labs-code/jules-awesome-list",
+      "category": "prompts",
+      "normalized_summary": "Some awesome prompts for Jules Agent",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/google-labs-code/jules-awesome-list",
+      "source_label": "Jules Awesome Prompts",
+      "overall_score": 0.3902,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.21,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.93,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.7621,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.35,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.21
+        },
+        "governance": {
+          "trust": 0.9299999999999999
+        },
+        "adoption": {
+          "popularity": 0.7620701583864351
+        },
+        "clarity": {
+          "description_clarity": 0.35
+        }
+      },
+      "verdict": {
+        "recommendation": "caution",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "google-labs-code/jules-awesome-list",
+          "name": "jules-awesome-list",
+          "description": "Some awesome prompts for Jules Agent",
+          "stargazers_count": 2916,
+          "forks_count": 519,
+          "language": null,
+          "license_spdx": null,
+          "topics": [],
+          "updated_at": "2026-03-30T21:17:24Z",
+          "owner_login": "google-labs-code",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/google-labs-code/jules-awesome-list"
+        },
+        "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/jules-readme.png\" alt=\"Jules Awesome List\" width=\"600\">\n</p>\n\n<div align=\"center\">\n  <h1>Awesome Jules Prompts \ud83c\udf1f</h1>\n  <p>Curated prompts for Jules, an async coding agent from Google Labs.</p>\n  <br>\n  <a href=\"https://jules.google.com\">Visit Jules</a> \u2022\n  <a href=\"#contributing\">Contribute</a>\n</div>\n\n---\n\n## Table of Contents\n\n- [Table of Contents](#table-of-contents)\n- [Everyday Dev Tasks](#everyday-dev-tasks)\n- [Debugging](#debugging)\n- [Documentation](",
+        "fetched_at": "2026-03-31T06:02:04.798246+00:00"
+      }
+    },
+    {
+      "directive_id": "prompts/instructa/ai-prompts",
+      "preferred_name": "instructa/ai-prompts",
+      "category": "prompts",
+      "normalized_summary": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/instructa/ai-prompts",
+      "source_label": "Instructa AI Prompts",
+      "overall_score": 0.5208,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.6,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.61,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.6478,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.6,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.61
+        },
+        "adoption": {
+          "popularity": 0.6477503959739453
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "instructa/ai-prompts",
+          "name": "ai-prompts",
+          "description": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
+          "stargazers_count": 1025,
+          "forks_count": 128,
+          "language": "JavaScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "agent",
+            "ai-agent",
+            "ai-prompts",
+            "cline",
+            "copilot",
+            "cursor",
+            "cursor-ai",
+            "github-copilot",
+            "prompting",
+            "prompts",
+            "windsurf"
+          ],
+          "updated_at": "2026-03-30T22:37:46Z",
+          "owner_login": "instructa",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/instructa/ai-prompts"
+        },
+        "readme_excerpt": "[![Instructa AI Prompts Banner](/public/image.png)](https://www.instructa.ai/ai-prompts)\n\n# AI Prompts & Rules\n\n<p>\n  <a href=\"https://github.com/instructa/ai-prompts\"><img src=\"https://img.shields.io/github/repo-size/instructa/ai-prompts?style=flat&colorA=18181B&colorB=28CF8D\" alt=\"Repo Size\"></a>\n  <a href=\"https://github.com/instructa/ai-prompts/actions\"><img src=\"https://img.shields.io/github/actions/workflow/status/instructa/ai-prompts/ci.yml?branch=main&style=flat&colorA=18181B&colorB=28CF",
+        "fetched_at": "2026-03-31T06:02:03.182815+00:00"
+      }
+    },
+    {
+      "directive_id": "skills-platforms/inference-sh/skills",
+      "preferred_name": "inference-sh/skills",
+      "category": "skills-platforms",
+      "normalized_summary": "inference.sh Agent skills for using our API to give your agents access to hundreds of apps and other agents",
+      "status": "active",
+      "provenance_hint": "official",
+      "origin_uri": "https://github.com/inference-sh/skills",
+      "source_label": "inference.sh Agent Skills",
+      "overall_score": 0.4657,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.55,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.36,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.63,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.5171,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.85,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.55,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.36
+        },
+        "governance": {
+          "trust": 0.63
+        },
+        "adoption": {
+          "popularity": 0.517067858477079
+        },
+        "clarity": {
+          "description_clarity": 0.85
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "inference-sh/skills",
+          "name": "skills",
+          "description": "inference.sh Agent skills for using our API to give your agents access to hundreds of apps and other agents",
+          "stargazers_count": 253,
+          "forks_count": 47,
+          "language": "Shell",
+          "license_spdx": null,
+          "topics": [],
+          "updated_at": "2026-03-30T20:47:20Z",
+          "owner_login": "inference-sh",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/inference-sh/skills"
+        },
+        "readme_excerpt": "# inference.sh skills\n\nAI agent skills for 150+ models via [inference.sh](https://inference.sh) CLI. Generate images, videos, call LLMs, search the web, and more.\n\n![inference.sh](https://cloud.inference.sh/app/files/u/4mg21r6ta37mpaz6ktzwtt8krr/01kgvqa60jjrqa47j3g5s6ce6v.jpeg)\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## Contents\n\n- [Install as Claude Code Plugin](#claude-code-plugin)\n- [Install as Skills](#install-as-skills)\n-",
+        "fetched_at": "2026-03-31T06:02:06.408023+00:00"
+      }
+    },
+    {
+      "directive_id": "skills-platforms/shareAI-lab/shareAI-skills",
+      "preferred_name": "shareAI-lab/shareAI-skills",
+      "category": "skills-platforms",
+      "normalized_summary": "shareAI Lab's skills for agent to build agent & other custom software system",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/shareAI-lab/shareAI-skills",
+      "source_label": "shareAI Skills",
+      "overall_score": 0.4813,
+      "scores": {
+        "skillness": {
+          "score": 0.6,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.8,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.51,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.5031,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.75,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.6,
+          "workflowness": 0.2,
+          "toolness": 0.2
+        },
+        "function": {
+          "coding": 0.8,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.51
+        },
+        "adoption": {
+          "popularity": 0.5031167106907466
+        },
+        "clarity": {
+          "description_clarity": 0.75
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "medium"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "shareAI-lab/shareAI-skills",
+          "name": "shareAI-skills",
+          "description": "shareAI Lab's skills for agent to build agent & other custom software system",
+          "stargazers_count": 236,
+          "forks_count": 33,
+          "language": "Python",
+          "license_spdx": "Apache-2.0",
+          "topics": [],
+          "updated_at": "2026-03-31T04:39:46Z",
+          "owner_login": "shareAI-lab",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/shareAI-lab/shareAI-skills"
+        },
+        "readme_excerpt": "# shareAI Skills\n\nKnowledge packages that extend AI agent capabilities.\n\n[\u4e2d\u6587\u6587\u6863](./README_zh.md)\n\n> Works with **[Kode CLI](https://github.com/shareAI-lab/Kode)**, **Claude Code**, **Cursor**, and any agent supporting the [Agent Skills Spec](https://github.com/anthropics/agent-skills).\n\n## Installation\n\n### Kode CLI (Recommended)\n\n```bash\nkode plugins install https://github.com/shareAI-lab/shareAI-skills\n```\n\n### Claude Code\n\n```bash\nclaude plugins install https://github.com/shareAI-lab/shareAI-s",
+        "fetched_at": "2026-03-31T06:02:07.991905+00:00"
+      }
+    },
+    {
+      "directive_id": "skills-platforms/wasp-lang/open-saas",
+      "preferred_name": "wasp-lang/open-saas",
+      "category": "skills-platforms",
+      "normalized_summary": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
+      "status": "active",
+      "provenance_hint": "community",
+      "origin_uri": "https://github.com/wasp-lang/open-saas",
+      "source_label": "Open SaaS (AGENTS.md & skills)",
+      "overall_score": 0.5537,
+      "scores": {
+        "skillness": {
+          "score": 0.75,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "workflowness": {
+          "score": 0.2,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "toolness": {
+          "score": 0.65,
+          "dimension_group": "form",
+          "confidence": 0.7
+        },
+        "coding": {
+          "score": 0.2,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "review": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "planning": {
+          "score": 0.15,
+          "dimension_group": "function",
+          "confidence": 0.7
+        },
+        "installability": {
+          "score": 0.95,
+          "dimension_group": "execution",
+          "confidence": 0.7
+        },
+        "trust": {
+          "score": 0.68,
+          "dimension_group": "governance",
+          "confidence": 0.7
+        },
+        "popularity": {
+          "score": 0.9073,
+          "dimension_group": "adoption",
+          "confidence": 0.7
+        },
+        "description_clarity": {
+          "score": 0.9,
+          "dimension_group": "clarity",
+          "confidence": 0.7
+        }
+      },
+      "scores_by_group": {
+        "form": {
+          "skillness": 0.75,
+          "workflowness": 0.2,
+          "toolness": 0.65
+        },
+        "function": {
+          "coding": 0.2,
+          "review": 0.15,
+          "planning": 0.15
+        },
+        "execution": {
+          "installability": 0.95
+        },
+        "governance": {
+          "trust": 0.6799999999999999
+        },
+        "adoption": {
+          "popularity": 0.9072945881906175
+        },
+        "clarity": {
+          "description_clarity": 0.9
+        }
+      },
+      "verdict": {
+        "recommendation": "neutral",
+        "trust": "high"
+      },
+      "metadata": {
+        "repo": {
+          "full_name": "wasp-lang/open-saas",
+          "name": "open-saas",
+          "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
+          "stargazers_count": 13701,
+          "forks_count": 1580,
+          "language": "TypeScript",
+          "license_spdx": "MIT",
+          "topics": [
+            "ai",
+            "authentication",
+            "aws-s3",
+            "boilerplate",
+            "chatgpt",
+            "full-stack",
+            "google-auth",
+            "hacktoberfest",
+            "nodejs",
+            "open-source",
+            "openai-api",
+            "postgresql",
+            "prisma",
+            "react",
+            "saas",
+            "saas-boilerplate",
+            "saas-starter",
+            "saas-template",
+            "typesafe",
+            "typescript"
+          ],
+          "updated_at": "2026-03-31T02:25:42Z",
+          "owner_login": "wasp-lang",
+          "owner_type": "Organization",
+          "html_url": "https://github.com/wasp-lang/open-saas"
+        },
+        "readme_excerpt": "## Welcome to your new SaaS App! \ud83c\udf89\n\n<div style=\"display: flex; gap: 16px; align-items: center;\">\n  <a href=\"https://www.producthunt.com/products/open-saas?embed=true&utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_source=badge-open&#0045;saas&#0045;2&#0045;0\" target=\"_blank\">\n    <img src=\"https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=1023519&theme=neutral&period=weekly&topic_id=237&t=1760520428563\" alt=\"Open&#0032;SaaS&#0032;2&#0046;0 - Free&#004",
+        "fetched_at": "2026-03-31T06:02:09.918544+00:00"
+      }
+    }
+  ]
+}
