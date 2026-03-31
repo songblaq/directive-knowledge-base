@@ -103,8 +103,6 @@
     container.appendChild(wrap);
 
     let chart = null;
-    let level = 'groups';
-    let drillGroup = null;
 
     function destroyChart() {
       if (chart) {
@@ -114,8 +112,6 @@
     }
 
     function renderGroups() {
-      level = 'groups';
-      drillGroup = null;
       nav.innerHTML = '';
       hint.textContent = '축(그룹)을 클릭하면 해당 그룹의 차원별 점수를 봅니다.';
       destroyChart();
@@ -158,8 +154,6 @@
         renderGroups();
         return;
       }
-      level = 'drill';
-      drillGroup = group;
       nav.innerHTML = '';
       const back = document.createElement('button');
       back.type = 'button';
